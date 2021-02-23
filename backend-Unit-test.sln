@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F982838E-753
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{FCE606CD-4F14-4D8A-83CF-CD087280D139}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tictactoe.Test", "test\Tictactoe.Test\Tictactoe.Test.csproj", "{23983309-4AE7-46CF-AF6B-D5CF2BC631FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,12 +21,17 @@ Global
 		{DCF3EFD1-0818-4C7D-A185-9AE9D42D5251}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCF3EFD1-0818-4C7D-A185-9AE9D42D5251}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCF3EFD1-0818-4C7D-A185-9AE9D42D5251}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23983309-4AE7-46CF-AF6B-D5CF2BC631FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23983309-4AE7-46CF-AF6B-D5CF2BC631FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23983309-4AE7-46CF-AF6B-D5CF2BC631FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23983309-4AE7-46CF-AF6B-D5CF2BC631FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DCF3EFD1-0818-4C7D-A185-9AE9D42D5251} = {F982838E-753A-4082-965E-97315748914C}
+		{23983309-4AE7-46CF-AF6B-D5CF2BC631FF} = {FCE606CD-4F14-4D8A-83CF-CD087280D139}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FEA14132-2063-4BC7-8A05-4FC65773EBDC}
