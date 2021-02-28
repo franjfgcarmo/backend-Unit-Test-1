@@ -6,7 +6,7 @@ namespace Tictactoe.Models
 {
     public class Coordinate
     {
-        private readonly Coordinate coordinate;
+        private readonly Utils.Coordinate coordinate;
 
         public const int DIMENSION = 3;
 
@@ -14,7 +14,7 @@ namespace Tictactoe.Models
 
         public Coordinate()
         {
-            coordinate = new Coordinate();
+            coordinate = new Utils.Coordinate();
         }
 
         public Coordinate(int row, int column) : this()

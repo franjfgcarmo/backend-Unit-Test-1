@@ -12,7 +12,7 @@ namespace Auxiliar.XUnit.Reusability
         static ExeuctionReusabilityTest()
         {
             staticMember++;
-            Debug.WriteLine("static code: " + staticMember);
+            Debug.WriteLine("static code: " + staticMember);           
         }
 
         public ExeuctionReusabilityTest()
