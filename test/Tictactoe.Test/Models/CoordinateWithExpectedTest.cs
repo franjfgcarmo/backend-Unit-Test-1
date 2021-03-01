@@ -93,19 +93,19 @@ namespace Tictactoe.Test.Models
         [Fact]
         public void testDirection()
         {
-            Assert.Equal(Utils.Direction.INVERSE_DIAGONAL,
+            Assert.Equal(Tictactoe.Utils.Direction.INVERSE_DIAGONAL,
                     new Coordinate(1, 1).Direction(new Coordinate(2, 0)));
-            Assert.Equal(Utils.Direction.HORIZONTAL,
+            Assert.Equal(Tictactoe.Utils.Direction.HORIZONTAL,
                     new Coordinate(1, 2).Direction(new Coordinate(1, 1)));
-            Assert.Equal(Utils.Direction.INVERSE_DIAGONAL,
+            Assert.Equal(Tictactoe.Utils.Direction.INVERSE_DIAGONAL,
                     new Coordinate(2, 0).Direction(new Coordinate(0, 2)));
-            Assert.Equal(Utils.Direction.VERTICAL,
+            Assert.Equal(Tictactoe.Utils.Direction.VERTICAL,
                     new Coordinate(2, 2).Direction(new Coordinate(0, 2)));
-            Assert.Equal(Utils.Direction.VERTICAL,
+            Assert.Equal(Tictactoe.Utils.Direction.VERTICAL,
                     new Coordinate(1, 2).Direction(new Coordinate(2, 2)));
-            Assert.Equal(Utils.Direction.HORIZONTAL,
+            Assert.Equal(Tictactoe.Utils.Direction.HORIZONTAL,
                     new Coordinate(0, 1).Direction(new Coordinate(0, 2)));
-            Assert.Equal(Utils.Direction.MAIN_DIAGONAL,
+            Assert.Equal(Tictactoe.Utils.Direction.MAIN_DIAGONAL,
                     new Tictactoe.Models.Coordinate(0, 0).Direction(new Tictactoe.Models.Coordinate(2, 2)));
         }
     }
