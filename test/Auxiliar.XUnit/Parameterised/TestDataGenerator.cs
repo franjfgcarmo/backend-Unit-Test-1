@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace Auxiliar.XUnit.Parameterised
 {
-    public static class TestDataGenerator 
+    public static class TestDataGenerator
     {
         public static IEnumerable<object[]> GetNumbersFromDataGenerator()
         {
@@ -30,6 +27,6 @@ namespace Auxiliar.XUnit.Parameterised
             new Person {Name = "Serpico", Age = 19},
             new Person {Name = "Salieri", Age = 20}
             };
-        }    
+        }
     }
 }

@@ -22,7 +22,13 @@ namespace Tictactoe.Test.Utils
             var coordinate = new Coordinate(row, colum);
             Assert.Equal(expectedInRow, OUTCoordinate.InRow(coordinate));
         }
-
+        #region MyRegion
+        /*
+         * ClassData is another attribute that we can use with our theory, with ClassData we have more 
+         * flexibility and less clutter.
+         * This class must implement IEnumerable<object[]>, where each item returned is an array of objects 
+         * to use as the method parameters. 
+         */
         [Theory]
         [ClassData(typeof(TestDataGenerator))]
         public void TestInRowWithClassData(int row, int colum, Coordinate coordinate, bool expectedInRow, bool expectedInColumn, bool expectedInMainDiagonal, Direction direction)
@@ -37,5 +43,7 @@ namespace Tictactoe.Test.Utils
             var OUTCoordinate = new Coordinate(row, colum);
             Assert.Equal(expectedInColumn, OUTCoordinate.InColumn(coordinate));
         }
+        #endregion
+
     }
 }

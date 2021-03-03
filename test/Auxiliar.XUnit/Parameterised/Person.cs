@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Auxiliar.XUnit.Parameterised
+﻿namespace Auxiliar.XUnit.Parameterised
 {
     public class Person
     {
