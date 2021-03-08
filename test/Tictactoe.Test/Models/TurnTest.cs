@@ -8,7 +8,17 @@ namespace Tictactoe.Test.Models
 {
     public class TurnTest
     {
+        /*
+         * Categorizing Test
+         * https://hamidmosalla.com/2020/03/01/xunit-part-7-categorizing-tests-with-xunit-trait/
+         * 
+         * dotnet test --filter TraitName=TraitValue
+         * dotnet test --filter TraitName!=TraitValue
+         * dotnet test --filter Color=Blue
+         * 
+         */
         [Fact]
+        [Trait("UI", "Front")]
         public void TurnTset()
         {
             //arrage
@@ -26,6 +36,7 @@ namespace Tictactoe.Test.Models
         The TestChange method of the TurnCompactTest class does this three tests in one
          */
         [Fact]
+        [Trait("UI","Back")]
         public void TestOneChange()
         {
             //arrage
